@@ -1,0 +1,32 @@
+{
+  "name": "bookstore-dathuynh-fe-v2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "node-sass": "^7.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "redux": "^4.2.0",
+    "redux-actions": "^2.6.5",
+    "redux-localstorage": "^0.4.1",
+    "redux-thunk": "^2.4.1",
+    "reselect": "^4.1.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.0",
+    "parcel-bundler": "^1.12.5",
+    "process": "^0.11.10"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  }
+}
